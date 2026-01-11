@@ -1,0 +1,310 @@
+.header {
+    background-color: #8b0000;
+    padding: 15px;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li{
+    display: inline;
+}
+.nav-links li{
+    text-decoration: none;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+/* HOME PAGE HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff0e6;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8b0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #a00000;
+}
+.our-story, .team, .fun-facts {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff0e6;
+    border-radius: 8px;
+}
+
+.team-member {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.fun-facts ul {
+    list-style: disc inside;
+}
+/* ===== MENU PAGE ===== */
+/* ===== MENU PAGE ===== */
+
+.menu-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.menu-subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Menu Gallery */
+.menu-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.menu-gallery img {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Menu Sections */
+.menu-section {
+    background: #fff0e6;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.menu-item h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item span {
+    color: #ff7a18;
+    font-weight: bold;
+}
+/* ===== HOURS PAGE ===== */
+
+.hours-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Center Image */
+.hours-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hours-image img {
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hours-image figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Store Hours Box */
+.store-hours {
+    background: #fff0e6;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.store-hours dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.store-hours dl dd {
+    margin-bottom: 10px;
+}
+
+/* Back link */
+.back-home a {
+    color: #ff7a18;
+    font-weight: bold;
+}
+
+
+
+    
+
+/* ===== CONTACT PAGE ===== */
+
+.contact-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-image img {
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.contact-image figcaption {
+    margin-top: 8px;
+    color: #555;
+    font-style: italic;
+}
+
+.contact-form {
+    background: #fff0e6;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #ff7a18;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #e86b0f;
+}
+
+.contact-info {
+    text-align: center;
+}
+/* ===== CTA ===== */
+
+.cta {
+    text-align: center;
+    padding: 40px;
+    background: #fff0e6;
+    border-radius: 15px;
+}
+
+.cta a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff7a18;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.about-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about-intro,
+.our-story,
+.taco-trivia,
+.fun-facts {
+    background: #fff0e6;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 15px;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
